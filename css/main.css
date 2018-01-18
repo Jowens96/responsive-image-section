@@ -32,6 +32,7 @@ h3 {
 
 p {
   margin: 0 0 2em;
+  text-align: left;
 }
 
 a {
@@ -40,15 +41,21 @@ a {
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 
+a:hover {
+  background-color: #000;
+}
 
+.text-div {
+  padding: 0 1em 1em 1em;
+}
 
 .img-flex {
   width: 100%;
   display: block;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -101,4 +108,13 @@ a {
 
   html {
     font-size: 130%;
+  }
+
+  .text-div {
+    width: 34%;
+    margin-left: 8em;
+  }
+
+  .img-div {
+    max-width: 38%;
   }
